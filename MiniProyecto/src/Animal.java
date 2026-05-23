@@ -62,8 +62,11 @@ public void setedad(int edad) {
     }
 
     public void mostrarInfo() {
-        System.out.println("ID: " + id + " | Nombre: " + nombre + " | Edad: " + edad + " años | Estado: " + estado);
-    }
+    System.out.println("ID: " + id);
+    System.out.println("Nombre: " + nombre);
+    System.out.println("Edad: " + edad );
+    System.out.println("Estado: " + estado);
+}
 }
 
 }
