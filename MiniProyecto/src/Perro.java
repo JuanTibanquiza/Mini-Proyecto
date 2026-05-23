@@ -1,5 +1,5 @@
 public class Perro extends Animal {
-public Perro(int id, String nombre, int edad, String estado) {
+    public Perro(int id, String nombre, int edad, String estado) {
     super(id, nombre, edad, estado);
 }
 @Override
@@ -10,5 +10,6 @@ public Perro(int id, String nombre, int edad, String estado) {
     public void mostrarInfo() {
         System.out.print("[PERRO] ");
         super.mostrarInfo();
-    }
+}
+
 }

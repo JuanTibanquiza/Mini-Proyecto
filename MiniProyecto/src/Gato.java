@@ -10,5 +10,5 @@ public class Gato extends Animal{
     public void mostrarInfo() {
         System.out.print("[GATO] ");
         super.mostrarInfo();
-
+}
 }

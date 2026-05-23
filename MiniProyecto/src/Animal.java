@@ -42,7 +42,7 @@ public void setnombre (String nombre){
     if (nombre !=null && !nombre.isEmpty()){
         this.nombre = nombre;
     }else {
-        System.out.println("Error nombre no puede estar vacio")
+        System.out.println("Error nombre no puede estar vacio");
     }
 }
 public void setedad(int edad) {
@@ -51,11 +51,12 @@ public void setedad(int edad) {
     } else {
         System.out.println("Error: La edad no puede ser negativa.");
     }
+}
     public void setestado (String estado){
     if (estado !=null && !estado.isEmpty()){
         this.estado = estado;
     }else {
-        System.out.println("Error nombre no puede estar vacio")
+        System.out.println("Error nombre no puede estar vacio");
     }
 }public void hacerSonido() {
         System.out.println("El animal hace un sonido genérico.");
@@ -69,4 +70,4 @@ public void setedad(int edad) {
 }
 }
 
-}
+
